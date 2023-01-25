@@ -1,0 +1,102 @@
+C:\Users\BONN\source\repos\PoluTation 4\PoluTation 4\obj\Debug\PoluTation 4.csproj.AssemblyReference.cache
+C:\Users\BONN\source\repos\PoluTation 4\PoluTation 4\obj\Debug\MainWindow.g.cs
+C:\Users\BONN\source\repos\PoluTation 4\PoluTation 4\obj\Debug\App.g.cs
+C:\Users\BONN\source\repos\PoluTation 4\PoluTation 4\obj\Debug\App.baml
+C:\Users\BONN\source\repos\PoluTation 4\PoluTation 4\obj\Debug\MainWindow.baml
+C:\Users\BONN\source\repos\PoluTation 4\PoluTation 4\obj\Debug\PoluTation_4.Properties.Resources.resources
+C:\Users\BONN\source\repos\PoluTation 4\PoluTation 4\obj\Debug\PoluTation 4.csproj.GenerateResource.cache
+C:\Users\BONN\source\repos\PoluTation 4\PoluTation 4\obj\Debug\PoluTation 4.csproj.CoreCompileInputs.cache
+C:\Users\BONN\source\repos\PoluTation 4\PoluTation 4\bin\Debug\DiscordRPC.dll
+C:\Users\BONN\source\repos\PoluTation 4\PoluTation 4\bin\Debug\Newtonsoft.Json.dll
+C:\Users\BONN\source\repos\PoluTation 4\PoluTation 4\bin\Debug\DiscordRPC.pdb
+C:\Users\BONN\source\repos\PoluTation 4\PoluTation 4\bin\Debug\DiscordRPC.xml
+C:\Users\BONN\source\repos\PoluTation 4\PoluTation 4\bin\Debug\Newtonsoft.Json.xml
+C:\Users\BONN\source\repos\PoluTation 4\PoluTation 4\obj\Debug\PoluTation 4.csproj.CopyComplete
+C:\Users\BONN\source\repos\PoluTation 4\PoluTation 4\obj\Debug\Notification.g.cs
+C:\Users\BONN\source\repos\PoluTation 4\PoluTation 4\obj\Debug\Notification.baml
+C:\Users\BONN\source\repos\PoluTation 4\PoluTation 4\obj\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Users\BONN\source\repos\PoluTation 4\PoluTation 4\bin\Debug\PoluStation 4.exe.config
+C:\Users\BONN\source\repos\PoluTation 4\PoluTation 4\bin\Debug\PoluStation 4.exe
+C:\Users\BONN\source\repos\PoluTation 4\PoluTation 4\bin\Debug\PoluStation 4.pdb
+C:\Users\BONN\source\repos\PoluTation 4\PoluTation 4\obj\Debug\PoluStation 4_MarkupCompile.cache
+C:\Users\BONN\source\repos\PoluTation 4\PoluTation 4\obj\Debug\PoluStation 4_MarkupCompile.lref
+C:\Users\BONN\source\repos\PoluTation 4\PoluTation 4\obj\Debug\PoluStation 4.g.resources
+C:\Users\BONN\source\repos\PoluTation 4\PoluTation 4\obj\Debug\PoluStation 4.exe
+C:\Users\BONN\source\repos\PoluTation 4\PoluTation 4\obj\Debug\PoluStation 4.pdb
+C:\Users\BONN\source\repos\PoluTation 4\PoluTation 4\bin\Debug\WpfAnimatedGif.dll
+C:\Users\BONN\source\repos\PoluTation 4\PoluTation 4\bin\Debug\WpfAnimatedGif.pdb
+C:\Users\BONN\source\repos\PoluTation 4\PoluTation 4\bin\Debug\WpfAnimatedGif.xml
+C:\Users\BONN\source\repos\PoluTation 4\PoluTation 4\bin\Debug\BouncyCastle.Crypto.dll
+C:\Users\BONN\source\repos\PoluTation 4\PoluTation 4\bin\Debug\Google.Protobuf.dll
+C:\Users\BONN\source\repos\PoluTation 4\PoluTation 4\bin\Debug\K4os.Compression.LZ4.dll
+C:\Users\BONN\source\repos\PoluTation 4\PoluTation 4\bin\Debug\K4os.Compression.LZ4.Streams.dll
+C:\Users\BONN\source\repos\PoluTation 4\PoluTation 4\bin\Debug\K4os.Hash.xxHash.dll
+C:\Users\BONN\source\repos\PoluTation 4\PoluTation 4\bin\Debug\MySql.Data.dll
+C:\Users\BONN\source\repos\PoluTation 4\PoluTation 4\bin\Debug\System.Buffers.dll
+C:\Users\BONN\source\repos\PoluTation 4\PoluTation 4\bin\Debug\System.Memory.dll
+C:\Users\BONN\source\repos\PoluTation 4\PoluTation 4\bin\Debug\System.Numerics.Vectors.dll
+C:\Users\BONN\source\repos\PoluTation 4\PoluTation 4\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\BONN\source\repos\PoluTation 4\PoluTation 4\bin\Debug\Ubiety.Dns.Core.dll
+C:\Users\BONN\source\repos\PoluTation 4\PoluTation 4\bin\Debug\Zstandard.Net.dll
+C:\Users\BONN\source\repos\PoluTation 4\PoluTation 4\bin\Debug\Google.Protobuf.pdb
+C:\Users\BONN\source\repos\PoluTation 4\PoluTation 4\bin\Debug\Google.Protobuf.xml
+C:\Users\BONN\source\repos\PoluTation 4\PoluTation 4\bin\Debug\K4os.Compression.LZ4.xml
+C:\Users\BONN\source\repos\PoluTation 4\PoluTation 4\bin\Debug\K4os.Compression.LZ4.Streams.xml
+C:\Users\BONN\source\repos\PoluTation 4\PoluTation 4\bin\Debug\K4os.Hash.xxHash.xml
+C:\Users\BONN\source\repos\PoluTation 4\PoluTation 4\bin\Debug\MySql.Data.xml
+C:\Users\BONN\source\repos\PoluTation 4\PoluTation 4\bin\Debug\System.Buffers.xml
+C:\Users\BONN\source\repos\PoluTation 4\PoluTation 4\bin\Debug\System.Memory.xml
+C:\Users\BONN\source\repos\PoluTation 4\PoluTation 4\bin\Debug\System.Numerics.Vectors.xml
+C:\Users\BONN\source\repos\PoluTation 4\PoluTation 4\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\BONN\source\repos\PoluTation 4\PoluTation 4\obj\Debug\PoluLogin.g.cs
+C:\Users\BONN\source\repos\PoluTation 4 - Copia\PoluTation 4\obj\Debug\PoluTation 4.csproj.AssemblyReference.cache
+C:\Users\BONN\source\repos\PoluTation 4 - Copia\PoluTation 4\obj\Debug\PoluStation 4.exe
+C:\Users\BONN\source\repos\PoluTation 4 - Copia\PoluTation 4\obj\Debug\PoluStation 4.pdb
+C:\Users\BONN\source\repos\PoluTation 4 - Copia\PoluTation 4\bin\Debug\PoluStation 4.exe.config
+C:\Users\BONN\source\repos\PoluTation 4 - Copia\PoluTation 4\bin\Debug\PoluStation 4.exe
+C:\Users\BONN\source\repos\PoluTation 4 - Copia\PoluTation 4\bin\Debug\PoluStation 4.pdb
+C:\Users\BONN\source\repos\PoluTation 4 - Copia\PoluTation 4\bin\Debug\BouncyCastle.Crypto.dll
+C:\Users\BONN\source\repos\PoluTation 4 - Copia\PoluTation 4\bin\Debug\DiscordRPC.dll
+C:\Users\BONN\source\repos\PoluTation 4 - Copia\PoluTation 4\bin\Debug\Google.Protobuf.dll
+C:\Users\BONN\source\repos\PoluTation 4 - Copia\PoluTation 4\bin\Debug\K4os.Compression.LZ4.dll
+C:\Users\BONN\source\repos\PoluTation 4 - Copia\PoluTation 4\bin\Debug\K4os.Compression.LZ4.Streams.dll
+C:\Users\BONN\source\repos\PoluTation 4 - Copia\PoluTation 4\bin\Debug\K4os.Hash.xxHash.dll
+C:\Users\BONN\source\repos\PoluTation 4 - Copia\PoluTation 4\bin\Debug\MySql.Data.dll
+C:\Users\BONN\source\repos\PoluTation 4 - Copia\PoluTation 4\bin\Debug\Newtonsoft.Json.dll
+C:\Users\BONN\source\repos\PoluTation 4 - Copia\PoluTation 4\bin\Debug\Pastebin.dll
+C:\Users\BONN\source\repos\PoluTation 4 - Copia\PoluTation 4\bin\Debug\System.Buffers.dll
+C:\Users\BONN\source\repos\PoluTation 4 - Copia\PoluTation 4\bin\Debug\System.Memory.dll
+C:\Users\BONN\source\repos\PoluTation 4 - Copia\PoluTation 4\bin\Debug\System.Numerics.Vectors.dll
+C:\Users\BONN\source\repos\PoluTation 4 - Copia\PoluTation 4\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\BONN\source\repos\PoluTation 4 - Copia\PoluTation 4\bin\Debug\Ubiety.Dns.Core.dll
+C:\Users\BONN\source\repos\PoluTation 4 - Copia\PoluTation 4\bin\Debug\WpfAnimatedGif.dll
+C:\Users\BONN\source\repos\PoluTation 4 - Copia\PoluTation 4\bin\Debug\Zstandard.Net.dll
+C:\Users\BONN\source\repos\PoluTation 4 - Copia\PoluTation 4\bin\Debug\DiscordRPC.pdb
+C:\Users\BONN\source\repos\PoluTation 4 - Copia\PoluTation 4\bin\Debug\DiscordRPC.xml
+C:\Users\BONN\source\repos\PoluTation 4 - Copia\PoluTation 4\bin\Debug\Google.Protobuf.pdb
+C:\Users\BONN\source\repos\PoluTation 4 - Copia\PoluTation 4\bin\Debug\Google.Protobuf.xml
+C:\Users\BONN\source\repos\PoluTation 4 - Copia\PoluTation 4\bin\Debug\K4os.Compression.LZ4.xml
+C:\Users\BONN\source\repos\PoluTation 4 - Copia\PoluTation 4\bin\Debug\K4os.Compression.LZ4.Streams.xml
+C:\Users\BONN\source\repos\PoluTation 4 - Copia\PoluTation 4\bin\Debug\K4os.Hash.xxHash.xml
+C:\Users\BONN\source\repos\PoluTation 4 - Copia\PoluTation 4\bin\Debug\MySql.Data.xml
+C:\Users\BONN\source\repos\PoluTation 4 - Copia\PoluTation 4\bin\Debug\Newtonsoft.Json.xml
+C:\Users\BONN\source\repos\PoluTation 4 - Copia\PoluTation 4\bin\Debug\System.Buffers.xml
+C:\Users\BONN\source\repos\PoluTation 4 - Copia\PoluTation 4\bin\Debug\System.Memory.xml
+C:\Users\BONN\source\repos\PoluTation 4 - Copia\PoluTation 4\bin\Debug\System.Numerics.Vectors.xml
+C:\Users\BONN\source\repos\PoluTation 4 - Copia\PoluTation 4\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\BONN\source\repos\PoluTation 4 - Copia\PoluTation 4\bin\Debug\WpfAnimatedGif.pdb
+C:\Users\BONN\source\repos\PoluTation 4 - Copia\PoluTation 4\bin\Debug\WpfAnimatedGif.xml
+C:\Users\BONN\source\repos\PoluTation 4 - Copia\PoluTation 4\obj\Debug\MainWindow.g.cs
+C:\Users\BONN\source\repos\PoluTation 4 - Copia\PoluTation 4\obj\Debug\Notification.g.cs
+C:\Users\BONN\source\repos\PoluTation 4 - Copia\PoluTation 4\obj\Debug\App.g.cs
+C:\Users\BONN\source\repos\PoluTation 4 - Copia\PoluTation 4\obj\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Users\BONN\source\repos\PoluTation 4 - Copia\PoluTation 4\obj\Debug\PoluStation 4_MarkupCompile.cache
+C:\Users\BONN\source\repos\PoluTation 4 - Copia\PoluTation 4\obj\Debug\PoluStation 4_MarkupCompile.lref
+C:\Users\BONN\source\repos\PoluTation 4 - Copia\PoluTation 4\obj\Debug\App.baml
+C:\Users\BONN\source\repos\PoluTation 4 - Copia\PoluTation 4\obj\Debug\MainWindow.baml
+C:\Users\BONN\source\repos\PoluTation 4 - Copia\PoluTation 4\obj\Debug\Notification.baml
+C:\Users\BONN\source\repos\PoluTation 4 - Copia\PoluTation 4\obj\Debug\PoluStation 4.g.resources
+C:\Users\BONN\source\repos\PoluTation 4 - Copia\PoluTation 4\obj\Debug\PoluTation_4.Properties.Resources.resources
+C:\Users\BONN\source\repos\PoluTation 4 - Copia\PoluTation 4\obj\Debug\PoluTation 4.csproj.GenerateResource.cache
+C:\Users\BONN\source\repos\PoluTation 4 - Copia\PoluTation 4\obj\Debug\PoluTation 4.csproj.CoreCompileInputs.cache
+C:\Users\BONN\source\repos\PoluTation 4 - Copia\PoluTation 4\obj\Debug\PoluTation 4.csproj.CopyComplete

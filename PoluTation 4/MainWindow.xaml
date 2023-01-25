@@ -1,0 +1,785 @@
+﻿<Window x:Class="PoluTation_4.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:gif="http://wpfanimatedgif.codeplex.com"
+        xmlns:local="clr-namespace:PoluTation_4"
+        mc:Ignorable="d"
+        Title="PoluStation" Height="597.115" Width="1209.203" AllowsTransparency="True" WindowStyle="None" Background="{x:Null}" Foreground="{x:Null}" Icon="png-clipart-the-witness-playstation-4-playstation-3-playstation-network-video-game-sony-playstation-.png" WindowStartupLocation="CenterScreen">
+    <Window.Resources>
+        <Storyboard x:Key="OnMouseEnter1">
+            <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.RenderTransform).(TransformGroup.Children)[0].(ScaleTransform.ScaleY)" Storyboard.TargetName="BackgroudGradient">
+                <EasingDoubleKeyFrame KeyTime="0" Value="1"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:0.3" Value="1.155"/>
+            </DoubleAnimationUsingKeyFrames>
+            <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.RenderTransform).(TransformGroup.Children)[3].(TranslateTransform.Y)" Storyboard.TargetName="BackgroudGradient">
+                <EasingDoubleKeyFrame KeyTime="0" Value="0"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:0.3" Value="14"/>
+            </DoubleAnimationUsingKeyFrames>
+            <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.RenderTransform).(TransformGroup.Children)[0].(ScaleTransform.ScaleY)" Storyboard.TargetName="grid">
+                <EasingDoubleKeyFrame KeyTime="0" Value="1"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:0.3" Value="1.151"/>
+            </DoubleAnimationUsingKeyFrames>
+            <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.RenderTransform).(TransformGroup.Children)[3].(TranslateTransform.Y)" Storyboard.TargetName="grid">
+                <EasingDoubleKeyFrame KeyTime="0" Value="0"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:0.3" Value="13"/>
+            </DoubleAnimationUsingKeyFrames>
+            <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.RenderTransform).(TransformGroup.Children)[0].(ScaleTransform.ScaleY)" Storyboard.TargetName="Background">
+                <EasingDoubleKeyFrame KeyTime="0" Value="1"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:0.3" Value="1.14"/>
+            </DoubleAnimationUsingKeyFrames>
+            <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.RenderTransform).(TransformGroup.Children)[3].(TranslateTransform.Y)" Storyboard.TargetName="Background">
+                <EasingDoubleKeyFrame KeyTime="0" Value="0"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:0.3" Value="9.5"/>
+            </DoubleAnimationUsingKeyFrames>
+            <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.RenderTransform).(TransformGroup.Children)[3].(TranslateTransform.Y)" Storyboard.TargetName="label">
+                <EasingDoubleKeyFrame KeyTime="0" Value="1"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:0.3" Value="21"/>
+            </DoubleAnimationUsingKeyFrames>
+            <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.RenderTransform).(TransformGroup.Children)[0].(ScaleTransform.ScaleY)" Storyboard.TargetName="GameImage">
+                <EasingDoubleKeyFrame KeyTime="0" Value="1"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:0.3" Value="0.984"/>
+            </DoubleAnimationUsingKeyFrames>
+            <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.RenderTransform).(TransformGroup.Children)[3].(TranslateTransform.Y)" Storyboard.TargetName="GameImage">
+                <EasingDoubleKeyFrame KeyTime="0" Value="0"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:0.3" Value="7"/>
+            </DoubleAnimationUsingKeyFrames>
+            <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.RenderTransform).(TransformGroup.Children)[3].(TranslateTransform.X)" Storyboard.TargetName="GameImage">
+                <EasingDoubleKeyFrame KeyTime="0" Value="0"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:0.3" Value="1"/>
+            </DoubleAnimationUsingKeyFrames>
+            <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.RenderTransform).(TransformGroup.Children)[3].(TranslateTransform.X)" Storyboard.TargetName="label">
+                <EasingDoubleKeyFrame KeyTime="0" Value="0"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:0.3" Value="1"/>
+            </DoubleAnimationUsingKeyFrames>
+        </Storyboard>
+        <Storyboard x:Key="OnMouseEnter_Copy1">
+            <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.RenderTransform).(TransformGroup.Children)[0].(ScaleTransform.ScaleY)" Storyboard.TargetName="BackgroudGradient">
+                <EasingDoubleKeyFrame KeyTime="0" Value="1.155"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:0.3" Value="1"/>
+            </DoubleAnimationUsingKeyFrames>
+            <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.RenderTransform).(TransformGroup.Children)[3].(TranslateTransform.Y)" Storyboard.TargetName="BackgroudGradient">
+                <EasingDoubleKeyFrame KeyTime="0" Value="14"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:0.3" Value="0"/>
+            </DoubleAnimationUsingKeyFrames>
+            <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.RenderTransform).(TransformGroup.Children)[0].(ScaleTransform.ScaleY)" Storyboard.TargetName="grid">
+                <EasingDoubleKeyFrame KeyTime="0" Value="1.151"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:0.3" Value="1"/>
+            </DoubleAnimationUsingKeyFrames>
+            <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.RenderTransform).(TransformGroup.Children)[3].(TranslateTransform.Y)" Storyboard.TargetName="grid">
+                <EasingDoubleKeyFrame KeyTime="0" Value="13"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:0.3" Value="0"/>
+            </DoubleAnimationUsingKeyFrames>
+            <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.RenderTransform).(TransformGroup.Children)[0].(ScaleTransform.ScaleY)" Storyboard.TargetName="Background">
+                <EasingDoubleKeyFrame KeyTime="0" Value="1.14"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:0.3" Value="1"/>
+            </DoubleAnimationUsingKeyFrames>
+            <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.RenderTransform).(TransformGroup.Children)[3].(TranslateTransform.Y)" Storyboard.TargetName="Background">
+                <EasingDoubleKeyFrame KeyTime="0" Value="9.5"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:0.3" Value="0"/>
+            </DoubleAnimationUsingKeyFrames>
+            <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.RenderTransform).(TransformGroup.Children)[3].(TranslateTransform.Y)" Storyboard.TargetName="label">
+                <EasingDoubleKeyFrame KeyTime="0" Value="21"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:0.3" Value="1"/>
+            </DoubleAnimationUsingKeyFrames>
+            <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.RenderTransform).(TransformGroup.Children)[0].(ScaleTransform.ScaleY)" Storyboard.TargetName="GameImage">
+                <EasingDoubleKeyFrame KeyTime="0" Value="0.984"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:0.3" Value="1"/>
+            </DoubleAnimationUsingKeyFrames>
+            <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.RenderTransform).(TransformGroup.Children)[3].(TranslateTransform.Y)" Storyboard.TargetName="GameImage">
+                <EasingDoubleKeyFrame KeyTime="0" Value="7"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:0.3" Value="0"/>
+            </DoubleAnimationUsingKeyFrames>
+            <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.RenderTransform).(TransformGroup.Children)[3].(TranslateTransform.X)" Storyboard.TargetName="GameImage">
+                <EasingDoubleKeyFrame KeyTime="0" Value="1"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:0.3" Value="0"/>
+            </DoubleAnimationUsingKeyFrames>
+            <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.RenderTransform).(TransformGroup.Children)[3].(TranslateTransform.X)" Storyboard.TargetName="label">
+                <EasingDoubleKeyFrame KeyTime="0" Value="1"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:0.3" Value="0"/>
+            </DoubleAnimationUsingKeyFrames>
+        </Storyboard>
+        <Storyboard x:Key="OnMouseEnter2">
+            <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.RenderTransform).(TransformGroup.Children)[3].(TranslateTransform.Y)" Storyboard.TargetName="GamingController">
+                <EasingDoubleKeyFrame KeyTime="0" Value="0"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:0.3" Value="-2"/>
+            </DoubleAnimationUsingKeyFrames>
+        </Storyboard>
+        <Storyboard x:Key="OnMouseEnter_Copy2">
+            <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.RenderTransform).(TransformGroup.Children)[3].(TranslateTransform.Y)" Storyboard.TargetName="GamingController">
+                <EasingDoubleKeyFrame KeyTime="0" Value="-2"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:0.3" Value="0"/>
+            </DoubleAnimationUsingKeyFrames>
+        </Storyboard>
+        <Storyboard x:Key="OnMouseEnter3">
+            <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.RenderTransform).(TransformGroup.Children)[3].(TranslateTransform.Y)" Storyboard.TargetName="EditMode">
+                <EasingDoubleKeyFrame KeyTime="0" Value="1"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:0.3" Value="-3"/>
+            </DoubleAnimationUsingKeyFrames>
+        </Storyboard>
+        <Storyboard x:Key="OnMouseEnter_Copy3">
+            <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.RenderTransform).(TransformGroup.Children)[3].(TranslateTransform.Y)" Storyboard.TargetName="EditMode">
+                <EasingDoubleKeyFrame KeyTime="0" Value="-3"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:0.3" Value="1"/>
+            </DoubleAnimationUsingKeyFrames>
+        </Storyboard>
+        <Storyboard x:Key="OnMouseEnter4">
+            <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.RenderTransform).(TransformGroup.Children)[3].(TranslateTransform.Y)" Storyboard.TargetName="Settings">
+                <EasingDoubleKeyFrame KeyTime="0" Value="0"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:0.3" Value="-4.5"/>
+            </DoubleAnimationUsingKeyFrames>
+        </Storyboard>
+        <Storyboard x:Key="OnMouseEnter_Copy4">
+            <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.RenderTransform).(TransformGroup.Children)[3].(TranslateTransform.Y)" Storyboard.TargetName="Settings">
+                <EasingDoubleKeyFrame KeyTime="0" Value="-4.5"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:0.3" Value="0"/>
+            </DoubleAnimationUsingKeyFrames>
+        </Storyboard>
+    </Window.Resources>
+    <Window.Triggers>
+        <EventTrigger RoutedEvent="UIElement.MouseEnter" SourceName="AddGame">
+            <BeginStoryboard x:Name="OnMouseEnter1_BeginStoryboard" Storyboard="{StaticResource OnMouseEnter1}"/>
+        </EventTrigger>
+        <EventTrigger RoutedEvent="UIElement.MouseLeave" SourceName="AddGame">
+            <BeginStoryboard x:Name="OnMouseLeave1_BeginStoryboard" Storyboard="{StaticResource OnMouseEnter_Copy1}"/>
+        </EventTrigger>
+        <EventTrigger RoutedEvent="UIElement.MouseEnter" SourceName="GamingController">
+            <BeginStoryboard x:Name="OnMouseEnter2_BeginStoryboard" Storyboard="{StaticResource OnMouseEnter2}"/>
+        </EventTrigger>
+        <EventTrigger RoutedEvent="UIElement.MouseLeave" SourceName="GamingController">
+            <BeginStoryboard x:Name="OnMouseEnter_Copy2_BeginStoryboard" Storyboard="{StaticResource OnMouseEnter_Copy2}"/>
+        </EventTrigger>
+        <EventTrigger RoutedEvent="UIElement.MouseEnter" SourceName="EditMode">
+            <BeginStoryboard x:Name="OnMouseEnter2_BeginStoryboard1" Storyboard="{StaticResource OnMouseEnter3}"/>
+        </EventTrigger>
+        <EventTrigger RoutedEvent="UIElement.MouseLeave" SourceName="EditMode">
+            <BeginStoryboard x:Name="OnMouseEnter_Copy3_BeginStoryboard" Storyboard="{StaticResource OnMouseEnter_Copy3}"/>
+        </EventTrigger>
+        <EventTrigger RoutedEvent="UIElement.MouseEnter" SourceName="Settings">
+            <BeginStoryboard x:Name="OnMouseEnter4_BeginStoryboard" Storyboard="{StaticResource OnMouseEnter4}"/>
+        </EventTrigger>
+        <EventTrigger RoutedEvent="UIElement.MouseLeave" SourceName="Settings">
+            <BeginStoryboard x:Name="OnMouseEnter_Copy4_BeginStoryboard" Storyboard="{StaticResource OnMouseEnter_Copy4}"/>
+        </EventTrigger>
+    </Window.Triggers>
+    <Grid SnapsToDevicePixels="True" x:Name="WindowGrid" KeyDown="WindowGrid_KeyDown">
+        <Grid Loaded="LoadingScreen_Loaded"  ShowGridLines="False" x:Name="LoadingScreen" HorizontalAlignment="Left" Height="597" VerticalAlignment="Top" Width="1209" Background="Black">
+            <Label x:Name="loadingStat" Opacity="0" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" Content="Loading content..." HorizontalAlignment="Left" VerticalAlignment="Top" Height="38" Width="1209" Margin="0,332,0,0" Foreground="White" FontSize="20" FontFamily="Segoe UI Semilight"/>
+            <ScrollViewer Opacity="0" IsHitTestVisible="False" x:Name="Ps4Logo" HorizontalScrollBarVisibility="Auto" VerticalScrollBarVisibility="Auto" Height="101" VerticalAlignment="Top" Margin="0,384,0,0">
+                <Image Height="100" VerticalAlignment="Top" Width="100" Source="icons8-playstation-192.png"/>
+            </ScrollViewer>
+        </Grid>
+        <Grid x:Name="actuaLInterface"  ShowGridLines="False" HorizontalAlignment="Left" Height="597" VerticalAlignment="Top" Width="1209">
+            <Rectangle x:Name="BackgroundColor" HorizontalAlignment="Left" Height="597" VerticalAlignment="Top" Width="1209">
+                <Rectangle.Fill>
+                    <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                        <GradientStop Color="#FF4D67DA" Offset="0"/>
+                        <GradientStop Color="#FF0E3185" Offset="0.992"/>
+                    </LinearGradientBrush>
+                </Rectangle.Fill>
+            </Rectangle>
+            <MediaElement  Stretch="Fill" IsHitTestVisible="False" Opacity="0.5" x:Name="ReferenceGif" HorizontalAlignment="Left" Height="597" VerticalAlignment="Top" Width="1209" d:IsHidden="True" MediaEnded="ReferenceGif_MediaEnded"/>
+            <Rectangle IsHitTestVisible="False" Opacity="0.5" x:Name="Reference" HorizontalAlignment="Left" Height="597" VerticalAlignment="Top" Width="1209" d:IsHidden="True">
+                <Rectangle.Fill>
+                    <ImageBrush ImageSource="sprnnlby75kx.jpg"/>
+                </Rectangle.Fill>
+            </Rectangle>
+            <Grid x:Name="Contents"  ShowGridLines="False" HorizontalAlignment="Left" Height="597" VerticalAlignment="Top" Width="1209">
+                <Label Opacity="1" IsHitTestVisible="False" HorizontalContentAlignment="Left" VerticalContentAlignment="Bottom" Content="Demo version ( this version doesnt represent the final state )" HorizontalAlignment="Left" VerticalAlignment="Top" Height="40" Width="622" Margin="0,557,0,0" Background="{x:Null}" Foreground="White" FontFamily="SimSun" FontSize="14"/>
+                <Grid x:Name="Topbar"  ShowGridLines="False" HorizontalAlignment="Left" Height="44" VerticalAlignment="Top" Width="1209" Margin="0,31,0,0" d:IsHidden="True">
+                    <Grid  ShowGridLines="False" x:Name="Buttons" HorizontalAlignment="Left" Height="44" VerticalAlignment="Top" Width="1156" Margin="0,1,0,-1">
+                        <Rectangle x:Name="TurnOff" Opacity="0.9" HorizontalAlignment="Left" Height="40" VerticalAlignment="Top" Width="40" Margin="1003,1,0,0" MouseLeftButtonUp="TurnOff_MouseLeftButtonUp">
+                            <Rectangle.Fill>
+                                <ImageBrush ImageSource="icons8-shutdown-1441.png"/>
+                            </Rectangle.Fill>
+                            <Rectangle.Effect>
+                                <DropShadowEffect BlurRadius="15" Opacity="0.35"/>
+                            </Rectangle.Effect>
+                        </Rectangle>
+                        <Rectangle x:Name="Settings" Opacity="0.9" HorizontalAlignment="Left" Height="40" VerticalAlignment="Top" Width="40" Margin="930,1,0,0" MouseLeftButtonUp="Settings_MouseLeftButtonUp" RenderTransformOrigin="0.5,0.5">
+                            <Rectangle.RenderTransform>
+                                <TransformGroup>
+                                    <ScaleTransform/>
+                                    <SkewTransform/>
+                                    <RotateTransform/>
+                                    <TranslateTransform/>
+                                </TransformGroup>
+                            </Rectangle.RenderTransform>
+                            <Rectangle.Fill>
+                                <ImageBrush ImageSource="icons8-settings-192.png"/>
+                            </Rectangle.Fill>
+                            <Rectangle.Effect>
+                                <DropShadowEffect BlurRadius="15" Opacity="0.35"/>
+                            </Rectangle.Effect>
+                        </Rectangle>
+                        <Rectangle x:Name="GamingController" Opacity="0.9" HorizontalAlignment="Left" Height="40" VerticalAlignment="Top" Width="44" Margin="75,1,0,0" MouseLeftButtonDown="GamingController_MouseLeftButtonDown" RenderTransformOrigin="0.5,0.5">
+                            <Rectangle.RenderTransform>
+                                <TransformGroup>
+                                    <ScaleTransform/>
+                                    <SkewTransform/>
+                                    <RotateTransform/>
+                                    <TranslateTransform/>
+                                </TransformGroup>
+                            </Rectangle.RenderTransform>
+                            <Rectangle.Effect>
+                                <DropShadowEffect BlurRadius="15" Opacity="0.35"/>
+                            </Rectangle.Effect>
+                            <Rectangle.Fill>
+                                <ImageBrush ImageSource="icons8-nintendo-switch-pro-controller-120.png"/>
+                            </Rectangle.Fill>
+
+                        </Rectangle>
+                        <Label x:Name="Min" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" Content="00:00" FontSize="20" HorizontalAlignment="Left" VerticalAlignment="Top" Height="50" Width="98" Foreground="White" Margin="1059,-5,-1,-1" FontFamily="Microsoft YaHei">
+                            <Label.Effect>
+                                <DropShadowEffect BlurRadius="15" Opacity="0.35"/>
+                            </Label.Effect>
+                        </Label>
+                        <Rectangle x:Name="EditMode" Opacity="0.9" HorizontalAlignment="Left" Height="40" VerticalAlignment="Top" Width="40" Margin="150,1,0,0" MouseLeftButtonUp="EditMode_MouseLeftButtonUp" RenderTransformOrigin="0.5,0.5">
+                            <Rectangle.RenderTransform>
+                                <TransformGroup>
+                                    <ScaleTransform/>
+                                    <SkewTransform/>
+                                    <RotateTransform/>
+                                    <TranslateTransform/>
+                                </TransformGroup>
+                            </Rectangle.RenderTransform>
+                            <Rectangle.Fill>
+                                <ImageBrush ImageSource="icons8-pencil-240.png"/>
+                            </Rectangle.Fill>
+                            <Rectangle.Effect>
+                                <DropShadowEffect BlurRadius="15" Opacity="0.35"/>
+                            </Rectangle.Effect>
+                        </Rectangle>
+                    </Grid>
+                    <Grid  ShowGridLines="False" x:Name="UserInfo" HorizontalAlignment="Left" Height="37" VerticalAlignment="Top" Width="180" Margin="491,3,0,0">
+                        <Rectangle x:Name="PFPRec" HorizontalAlignment="Left" Height="37" VerticalAlignment="Top" Width="36" Margin="1,0,0,0">
+                            <Rectangle.Fill>
+                                <ImageBrush ImageSource="70636b4d0e1a83de156c5e7ab6b2c2d474a6d0b9r1-622-651v2_uhq.jpg" Stretch="UniformToFill"/>
+                            </Rectangle.Fill>
+                            <Rectangle.Effect>
+                                <DropShadowEffect BlurRadius="15" Opacity="0.35"/>
+                            </Rectangle.Effect>
+                        </Rectangle>
+                        <Label x:Name="TopUser" VerticalContentAlignment="Center" HorizontalContentAlignment="Left" Content="Guest" HorizontalAlignment="Left" VerticalAlignment="Top" Width="138" Height="37" Margin="42,0,0,0" Foreground="White" FontSize="14" FontFamily="Segoe UI Variable Display Light">
+                            <Label.Effect>
+                                <DropShadowEffect BlurRadius="15" Opacity="0.35"/>
+                            </Label.Effect>
+                        </Label>
+                    </Grid>
+                </Grid>
+                <Grid x:Name="Menus" HorizontalAlignment="Left" Height="597" VerticalAlignment="Top" Width="1209">
+
+                    <Grid x:Name="PoluStoreG" HorizontalAlignment="Left" Height="597" VerticalAlignment="Top" Width="1209">
+                        <Grid x:Name="PoluSBackground" HorizontalAlignment="Left" Height="597" VerticalAlignment="Top" Width="1209">
+                            <Rectangle x:Name="BackGround3" HorizontalAlignment="Left" Height="189" VerticalAlignment="Top" Width="597" Margin="-204,203,0,0" RenderTransformOrigin="0.5,0.5">
+                                <Rectangle.RenderTransform>
+                                    <TransformGroup>
+                                        <ScaleTransform ScaleY="-1"/>
+                                        <SkewTransform/>
+                                        <RotateTransform Angle="90"/>
+                                        <TranslateTransform/>
+                                    </TransformGroup>
+                                </Rectangle.RenderTransform>
+                                <Rectangle.Fill>
+                                    <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                                        <GradientStop Color="#FF0F285F"/>
+                                        <GradientStop Offset="1" Color="#002545A4"/>
+                                    </LinearGradientBrush>
+                                </Rectangle.Fill>
+                            </Rectangle>
+                            <Rectangle x:Name="BackGround2" HorizontalAlignment="Left" Height="165" VerticalAlignment="Top" Width="597" Margin="831,215,-219,0" RenderTransformOrigin="0.5,0.5">
+                                <Rectangle.RenderTransform>
+                                    <TransformGroup>
+                                        <ScaleTransform/>
+                                        <SkewTransform/>
+                                        <RotateTransform Angle="90"/>
+                                        <TranslateTransform/>
+                                    </TransformGroup>
+                                </Rectangle.RenderTransform>
+                                <Rectangle.Fill>
+                                    <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                                        <GradientStop Color="#FF0F285F"/>
+                                        <GradientStop Offset="1" Color="#002545A4"/>
+                                    </LinearGradientBrush>
+                                </Rectangle.Fill>
+                            </Rectangle>
+                            <Rectangle x:Name="BackGround1" HorizontalAlignment="Left" Height="189" VerticalAlignment="Top" Width="1209" Margin="0,413,0,-5" RenderTransformOrigin="0.5,0.5">
+                                <Rectangle.RenderTransform>
+                                    <TransformGroup>
+                                        <ScaleTransform ScaleY="-1"/>
+                                        <SkewTransform/>
+                                        <RotateTransform/>
+                                        <TranslateTransform/>
+                                    </TransformGroup>
+                                </Rectangle.RenderTransform>
+                                <Rectangle.Fill>
+                                    <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                                        <GradientStop Color="#FF0F285F"/>
+                                        <GradientStop Offset="1" Color="#002545A4"/>
+                                    </LinearGradientBrush>
+                                </Rectangle.Fill>
+                            </Rectangle>
+                            <Rectangle x:Name="SideBar" Opacity="0.6" HorizontalAlignment="Left" Height="622" VerticalAlignment="Top" Width="233" Margin="0,0,0,-25">
+                                <Rectangle.Fill>
+                                    <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                                        <GradientStop Color="#3D000000" Offset="0"/>
+                                        <GradientStop Color="Black" Offset="1"/>
+                                    </LinearGradientBrush>
+                                </Rectangle.Fill>
+                            </Rectangle>
+                            <Rectangle x:Name="BackGround" HorizontalAlignment="Left" Height="118" VerticalAlignment="Top" Width="1209">
+                                <Rectangle.Fill>
+                                    <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                                        <GradientStop Color="#FF0F285F"/>
+                                        <GradientStop Offset="1" Color="#002545A4"/>
+                                    </LinearGradientBrush>
+                                </Rectangle.Fill>
+                            </Rectangle>
+                            <Image HorizontalAlignment="Left" Height="100" Margin="50,66,0,0" VerticalAlignment="Top" Width="100"/>
+                        </Grid>
+                        <Grid x:Name="ActuallyMenu" HorizontalAlignment="Left" Height="597" VerticalAlignment="Top" Width="973" Margin="236,-2,0,0">
+                            <Grid x:Name="PopularOnStore" HorizontalAlignment="Left" Height="597" VerticalAlignment="Top" Width="973">
+                                <Grid HorizontalAlignment="Left" Height="463" VerticalAlignment="Top" Width="531" Margin="30,96,0,0">
+                                    <Image HorizontalAlignment="Left" Height="463" VerticalAlignment="Top" Width="531" Source="icon0.png" Stretch="Fill"/>
+                                </Grid>
+                                <Grid HorizontalAlignment="Left" Height="227" VerticalAlignment="Top" Width="239" Margin="594,96,0,0">
+                                    <Rectangle HorizontalAlignment="Left" Height="227" VerticalAlignment="Top" Width="239" Fill="Black"/>
+                                    <Image HorizontalAlignment="Left" Height="161" VerticalAlignment="Top" Width="169" Source="12e48c1396c053609b84ad7aed3e3f4211b63da9_00.jpg" Stretch="Fill" Margin="36,32,0,0"/>
+                                </Grid>
+                                <Grid HorizontalAlignment="Left" Height="212" VerticalAlignment="Top" Width="239" Margin="594,345,0,0">
+                                    <Rectangle HorizontalAlignment="Left" Height="212" VerticalAlignment="Top" Width="239">
+                                        <Rectangle.Fill>
+                                            <ImageBrush ImageSource="A.png" Stretch="UniformToFill"/>
+                                        </Rectangle.Fill>
+                                    </Rectangle>
+                                    <Label Content="PoluHits" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="73,93,0,0" Foreground="White" FontSize="22" FontFamily="Segoe UI Semibold"/>
+                                    <Grid HorizontalAlignment="Left" Height="35" VerticalAlignment="Top" Width="239" Background="#FF0074B6"/>
+                                    <Label HorizontalContentAlignment="Center" Content="PoluStation Mega update" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="0,3,0,0" Foreground="White" FontSize="16" FontFamily="Segoe UI Semibold" Height="32" Width="239"/>
+                                </Grid>
+                            </Grid>
+                            <Grid HorizontalAlignment="Left" Height="100" VerticalAlignment="Top" Width="100"/>
+                        </Grid>
+                        <WrapPanel x:Name="Menu" HorizontalAlignment="Left" Height="597" VerticalAlignment="Top" Width="231">
+                            <Grid DockPanel.Dock="Top" Height="597" Width="230">
+                                <Separator Opacity="0.5" HorizontalAlignment="Left" Height="8" Margin="24,72,0,0" VerticalAlignment="Top" Width="182"/>
+                                <Grid x:Name="Jogos" HorizontalAlignment="Left" Height="53" VerticalAlignment="Top" Width="230" Margin="0,96,0,0">
+                                    <Grid.RowDefinitions>
+                                        <RowDefinition/>
+                                    </Grid.RowDefinitions>
+                                    <Grid IsHitTestVisible="False" Opacity="0" x:Name="Selected" HorizontalAlignment="Left" Height="53" VerticalAlignment="Top" Width="230">
+                                        <Rectangle HorizontalAlignment="Left" Height="53" VerticalAlignment="Top" Width="230" Fill="White" Margin="0,0,-130,0"/>
+                                        <Rectangle HorizontalAlignment="Left" Height="48" VerticalAlignment="Top" Width="229" Margin="-2,3,-127,0">
+                                            <Rectangle.Fill>
+                                                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                                                    <GradientStop Color="#7FBBBBBB" Offset="0.025"/>
+                                                    <GradientStop Color="#D8B9B9B9" Offset="1"/>
+                                                </LinearGradientBrush>
+                                            </Rectangle.Fill>
+                                        </Rectangle>
+                                        <Label HorizontalContentAlignment="Center" VerticalContentAlignment="Center" Content="&gt;" HorizontalAlignment="Left" VerticalAlignment="Top" Height="53" Width="25" Margin="195,0,-120,0" Foreground="Black" FontFamily="NSimSun" FontWeight="Bold" FontSize="22"/>
+                                        <Label HorizontalContentAlignment="Left" VerticalContentAlignment="Center" Content="Jogos" HorizontalAlignment="Left" VerticalAlignment="Top" Height="51" Width="106" Margin="24,0,-30,0" Foreground="Black" FontSize="22"/>
+                                    </Grid>
+                                    <Grid x:Name="NotSelected" IsHitTestVisible="False" HorizontalAlignment="Left" Height="53" VerticalAlignment="Top" Width="230">
+                                        <Label HorizontalContentAlignment="Left" VerticalContentAlignment="Center" Content="Jogos" HorizontalAlignment="Left" VerticalAlignment="Top" Height="51" Width="106" Margin="24,0,-30,0" Foreground="White" FontSize="22" Background="{x:Null}"/>
+                                    </Grid>
+                                    <Rectangle x:Name="HitBox" HorizontalAlignment="Left" Height="53" VerticalAlignment="Top" Width="230" Fill="#02000000" MouseEnter="Jogos_MouseEnter" MouseLeave="Jogos_MouseLeave"/>
+                                </Grid>
+                                <Grid x:Name="Apps" HorizontalAlignment="Left" Height="53" VerticalAlignment="Top" Width="230" Margin="0,176,0,0">
+                                    <Grid.RowDefinitions>
+                                        <RowDefinition/>
+                                    </Grid.RowDefinitions>
+                                    <Grid Opacity="0" IsHitTestVisible="False" x:Name="Selected1" HorizontalAlignment="Left" Height="53" VerticalAlignment="Top" Width="230">
+                                        <Rectangle HorizontalAlignment="Left" Height="53" VerticalAlignment="Top" Width="230" Fill="White" Margin="0,0,-130,0"/>
+                                        <Rectangle HorizontalAlignment="Left" Height="48" VerticalAlignment="Top" Width="229" Margin="-2,3,-127,0">
+                                            <Rectangle.Fill>
+                                                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                                                    <GradientStop Color="#7FBBBBBB" Offset="0.025"/>
+                                                    <GradientStop Color="#D8B9B9B9" Offset="1"/>
+                                                </LinearGradientBrush>
+                                            </Rectangle.Fill>
+                                        </Rectangle>
+                                        <Label HorizontalContentAlignment="Center" VerticalContentAlignment="Center" Content="&gt;" HorizontalAlignment="Left" VerticalAlignment="Top" Height="53" Width="25" Margin="195,0,-120,0" Foreground="Black" FontFamily="NSimSun" FontWeight="Bold" FontSize="22"/>
+                                        <Label HorizontalContentAlignment="Left" VerticalContentAlignment="Center" Content="Apps" HorizontalAlignment="Left" VerticalAlignment="Top" Height="51" Width="106" Margin="24,0,-30,0" Foreground="Black" FontSize="22"/>
+                                    </Grid>
+                                    <Grid x:Name="NotSelected1" IsHitTestVisible="False" HorizontalAlignment="Left" Height="53" VerticalAlignment="Top" Width="230">
+                                        <Label HorizontalContentAlignment="Left" VerticalContentAlignment="Center" Content="Apps" HorizontalAlignment="Left" VerticalAlignment="Top" Height="51" Width="106" Margin="24,0,-30,0" Foreground="White" FontSize="22" Background="{x:Null}"/>
+                                    </Grid>
+                                    <Rectangle x:Name="HitBox1" HorizontalAlignment="Left" Height="53" VerticalAlignment="Top" Width="230" Fill="#02000000" MouseEnter="Apps_MouseEnter" MouseLeave="Apps_MouseLeave"/>
+                                </Grid>
+                                <Grid x:Name="Temas" HorizontalAlignment="Left" Height="53" VerticalAlignment="Top" Width="230" Margin="0,256,0,0">
+                                    <Grid.RowDefinitions>
+                                        <RowDefinition/>
+                                    </Grid.RowDefinitions>
+                                    <Grid Opacity="0" IsHitTestVisible="False" x:Name="Selected2" HorizontalAlignment="Left" Height="53" VerticalAlignment="Top" Width="230">
+                                        <Rectangle HorizontalAlignment="Left" Height="53" VerticalAlignment="Top" Width="230" Fill="White" Margin="0,0,-130,0"/>
+                                        <Rectangle HorizontalAlignment="Left" Height="48" VerticalAlignment="Top" Width="229" Margin="-2,3,-127,0">
+                                            <Rectangle.Fill>
+                                                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                                                    <GradientStop Color="#7FBBBBBB" Offset="0.025"/>
+                                                    <GradientStop Color="#D8B9B9B9" Offset="1"/>
+                                                </LinearGradientBrush>
+                                            </Rectangle.Fill>
+                                        </Rectangle>
+                                        <Label HorizontalContentAlignment="Center" VerticalContentAlignment="Center" Content="&gt;" HorizontalAlignment="Left" VerticalAlignment="Top" Height="53" Width="25" Margin="195,0,-120,0" Foreground="Black" FontFamily="NSimSun" FontWeight="Bold" FontSize="22"/>
+                                        <Label HorizontalContentAlignment="Left" VerticalContentAlignment="Center" Content="Temas" HorizontalAlignment="Left" VerticalAlignment="Top" Height="51" Width="106" Margin="24,0,-30,0" Foreground="Black" FontSize="22"/>
+                                    </Grid>
+                                    <Grid IsHitTestVisible="False" x:Name="NotSelected2" HorizontalAlignment="Left" Height="53" VerticalAlignment="Top" Width="230">
+                                        <Label HorizontalContentAlignment="Left" VerticalContentAlignment="Center" Content="Temas" HorizontalAlignment="Left" VerticalAlignment="Top" Height="51" Width="106" Margin="24,0,-30,0" Foreground="White" FontSize="22" Background="{x:Null}"/>
+                                    </Grid>
+                                    <Rectangle x:Name="HitBox2" HorizontalAlignment="Left" Height="53" VerticalAlignment="Top" Width="230" Fill="#02000000" MouseEnter="Tema_MouseEnter" MouseLeave="Tema_MouseLeave"/>
+                                </Grid>
+                                <Grid x:Name="Biblioteca" HorizontalAlignment="Left" Height="53" VerticalAlignment="Top" Width="230" Margin="0,456,0,0">
+                                    <Grid.RowDefinitions>
+                                        <RowDefinition/>
+                                    </Grid.RowDefinitions>
+                                    <Grid Opacity="0" IsHitTestVisible="False" x:Name="Selected3" HorizontalAlignment="Left" Height="53" VerticalAlignment="Top" Width="230">
+                                        <Rectangle HorizontalAlignment="Left" Height="53" VerticalAlignment="Top" Width="230" Fill="White" Margin="0,0,-130,0"/>
+                                        <Rectangle HorizontalAlignment="Left" Height="48" VerticalAlignment="Top" Width="229" Margin="-2,3,-127,0">
+                                            <Rectangle.Fill>
+                                                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                                                    <GradientStop Color="#7FBBBBBB" Offset="0.025"/>
+                                                    <GradientStop Color="#D8B9B9B9" Offset="1"/>
+                                                </LinearGradientBrush>
+                                            </Rectangle.Fill>
+                                        </Rectangle>
+                                        <Label HorizontalContentAlignment="Center" VerticalContentAlignment="Center" Content="&gt;" HorizontalAlignment="Left" VerticalAlignment="Top" Height="53" Width="25" Margin="195,0,-120,0" Foreground="Black" FontFamily="NSimSun" FontWeight="Bold" FontSize="22"/>
+                                        <Label HorizontalContentAlignment="Left" VerticalContentAlignment="Center" Content="Biblioteca" HorizontalAlignment="Left" VerticalAlignment="Top" Height="51" Width="106" Margin="24,0,-30,0" Foreground="Black" FontSize="22"/>
+                                    </Grid>
+                                    <Grid x:Name="NotSelected3" IsHitTestVisible="False" HorizontalAlignment="Left" Height="53" VerticalAlignment="Top" Width="230">
+                                        <Label HorizontalContentAlignment="Left" VerticalContentAlignment="Center" Content="Biblioteca" HorizontalAlignment="Left" VerticalAlignment="Top" Height="51" Width="106" Margin="24,0,-30,0" Foreground="White" FontSize="22" Background="{x:Null}"/>
+                                    </Grid>
+                                    <Rectangle x:Name="HitBox3" HorizontalAlignment="Left" Height="53" VerticalAlignment="Top" Width="230" Fill="#02000000" MouseEnter="Biblioteca_MouseEnter" MouseLeave="Biblioteca_MouseLeave"/>
+                                </Grid>
+                                <Separator Opacity="0.5" HorizontalAlignment="Left" Height="8" Margin="30,442,0,0" VerticalAlignment="Top" Width="182"/>
+                                <Image HorizontalAlignment="Left" Height="34" VerticalAlignment="Top" Width="41" Source="p_PN_Logo.png" Margin="14,14,0,0"/>
+                                <Label HorizontalContentAlignment="Center" VerticalContentAlignment="Center" Content="PoluStation™ Store" HorizontalAlignment="Left" VerticalAlignment="Top" Height="31" Width="160" Margin="60,15,0,0" Foreground="White" FontFamily="Nirmala UI" FontSize="18"/>
+                            </Grid>
+                        </WrapPanel>
+                    </Grid>
+
+                    <Grid Opacity="1" x:Name="AddGame1" ShowGridLines="False" HorizontalAlignment="Left" Height="597" VerticalAlignment="Top" Width="1209" d:IsHidden="True" d:IsLocked="True">
+                        <Separator Opacity="0.8" HorizontalAlignment="Left" Height="43" Margin="10,54,0,0" VerticalAlignment="Top" Width="1189">
+                            <Separator.Background>
+                                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                                    <GradientStop Color="#FF7070D6" Offset="0"/>
+                                    <GradientStop Color="#FF82C9DE" Offset="0.984"/>
+                                </LinearGradientBrush>
+                            </Separator.Background>
+                        </Separator>
+                        <Label Content="Add game" HorizontalAlignment="Left" VerticalAlignment="Top" Height="61" Width="176" Margin="66,18,0,0" Foreground="White" FontSize="36" FontFamily="Segoe UI Variable Text Light"/>
+                        <ScrollViewer HorizontalAlignment="Left" Height="436" VerticalAlignment="Top" Width="860" Margin="182,84,0,0">
+                            <WrapPanel Height="436" Width="862">
+                                <Grid x:Name="Name" Height="64" Width="862" MouseEnter="Name_MouseEnter" MouseLeave="Name_MouseLeave">
+                                    <Rectangle Opacity="0" IsHitTestVisible="False" x:Name="SelectedRound" HorizontalAlignment="Left" Height="58" VerticalAlignment="Top" Width="852" Fill="White">
+                                        <Rectangle.Effect>
+                                            <BlurEffect Radius="10"/>
+                                        </Rectangle.Effect>
+                                    </Rectangle>
+                                    <Rectangle Fill="#FF0C3480" HorizontalAlignment="Left" Height="55" VerticalAlignment="Top" Width="846" Margin="3,2,0,0"/>
+                                    <Image HorizontalAlignment="Left" Height="48" VerticalAlignment="Top" Width="48" Source="icons8-quill-pen-240.png" Margin="7,5,0,0"/>
+                                    <Label HorizontalContentAlignment="Left" VerticalContentAlignment="Center" Content="Nome do jogo" HorizontalAlignment="Left" VerticalAlignment="Top" Height="57" Width="134" Margin="60,0,0,0" Foreground="White" FontFamily="Segoe UI Light" FontSize="20"/>
+                                    <TextBox x:Name="GameName" HorizontalContentAlignment="Left" VerticalContentAlignment="Center" HorizontalAlignment="Left" Height="57" Margin="210,2,0,0" TextWrapping="Wrap" Text="Example" VerticalAlignment="Top" Width="321" Background="{x:Null}" Foreground="#FFC1C1C1" BorderBrush="{x:Null}" FontSize="16" FontFamily="Segoe UI Light" TextChanged="GameName_TextChanged_1"/>
+                                </Grid>
+                                <Grid x:Name="Icon" Height="64" Width="862" MouseEnter="Icon_MouseEnter" MouseLeave="Icon_MouseLeave">
+                                    <Rectangle Opacity="0" x:Name="SelectedRound1" HorizontalAlignment="Left" Height="58" VerticalAlignment="Top" Width="852" Fill="White">
+                                        <Rectangle.Effect>
+                                            <BlurEffect Radius="10"/>
+                                        </Rectangle.Effect>
+                                    </Rectangle>
+                                    <Rectangle x:Name="IconRec" Fill="#FF0C3480" HorizontalAlignment="Left" Height="55" VerticalAlignment="Top" Width="846" Margin="3,2,0,0" MouseLeftButtonDown="IconRec_MouseLeftButtonUp"/>
+                                    <Image x:Name="IconImage" HorizontalAlignment="Left" IsHitTestVisible="False" Height="48" VerticalAlignment="Top" Width="48" Source="icons8-image-384.png" Margin="7,5,0,0"/>
+                                    <Label IsHitTestVisible="False" HorizontalContentAlignment="Left" VerticalContentAlignment="Center" Content="Icone" HorizontalAlignment="Left" VerticalAlignment="Top" Height="57" Width="134" Margin="60,0,0,0" Foreground="White" FontFamily="Segoe UI Light" FontSize="20"/>
+                                </Grid>
+                                <Grid x:Name="Path" Height="66" Width="862" MouseLeftButtonDown="PathSelect_MouseLeftButtonUp" MouseEnter="Path_MouseEnter" MouseLeave="Path_MouseLeave">
+                                    <Rectangle  IsHitTestVisible="False" Opacity="0" x:Name="SelectedRound2" HorizontalAlignment="Left" Height="58" VerticalAlignment="Top" Width="852" Fill="White">
+                                        <Rectangle.Effect>
+                                            <BlurEffect Radius="10"/>
+                                        </Rectangle.Effect>
+                                    </Rectangle>
+                                    <Rectangle x:Name="PathSelect" Fill="#FF0C3480" HorizontalAlignment="Left" Height="55" VerticalAlignment="Top" Width="846" Margin="3,2,0,0"/>
+                                    <Image x:Name="GamePath" IsHitTestVisible="False" HorizontalAlignment="Left" Height="48" VerticalAlignment="Top" Width="48" Source="icons8-add-file-240.png" Margin="7,5,0,0"/>
+                                    <Label IsHitTestVisible="False" HorizontalContentAlignment="Left" VerticalContentAlignment="Center" Content="Executavel" HorizontalAlignment="Left" VerticalAlignment="Top" Height="57" Width="134" Margin="60,0,0,0" Foreground="White" FontFamily="Segoe UI Light" FontSize="20"/>
+                                    <Label Opacity="0" x:Name="PathSelected" IsHitTestVisible="False" HorizontalContentAlignment="Left" VerticalContentAlignment="Center" Content="ath" HorizontalAlignment="Left" VerticalAlignment="Top" Height="57" Width="481" Margin="260,0,0,0" Foreground="#FFC5C5C5" FontFamily="Segoe UI Light" FontSize="14"/>
+                                </Grid>
+                                <Grid x:Name="Add" Height="68" Width="862" MouseEnter="Add_MouseEnter" MouseLeave="Add_MouseLeave" MouseLeftButtonDown="Add_MouseLeftButtonDown" MouseLeftButtonUp="Add_MouseLeftButtonUp">
+                                    <Rectangle  IsHitTestVisible="False" Opacity="0" x:Name="SelectedRound3" HorizontalAlignment="Left" Height="58" VerticalAlignment="Top" Width="852" Fill="White">
+                                        <Rectangle.Effect>
+                                            <BlurEffect Radius="10"/>
+                                        </Rectangle.Effect>
+                                    </Rectangle>
+                                    <Rectangle x:Name="PathSelect1" Fill="#FF0C3480" HorizontalAlignment="Left" Height="55" VerticalAlignment="Top" Width="846" Margin="3,2,0,0"/>
+                                    <Image x:Name="AddImage" IsHitTestVisible="False" HorizontalAlignment="Left" Height="48" VerticalAlignment="Top" Width="48" Source="icons8-nintendo-switch-pro-controller-240.png" Margin="7,5,0,0"/>
+                                    <Label x:Name="AdicionarJogo" IsHitTestVisible="False" HorizontalContentAlignment="Left" VerticalContentAlignment="Center" Content="Adicionar jogo" HorizontalAlignment="Left" VerticalAlignment="Top" Height="57" Width="134" Margin="60,0,0,0" Foreground="White" FontFamily="Segoe UI Light" FontSize="20"/>
+                                </Grid>
+                            </WrapPanel>
+                        </ScrollViewer>
+                        <Rectangle Opacity="0" IsHitTestVisible="False" HorizontalAlignment="Left" Height="106" VerticalAlignment="Top" Width="860" Margin="182,414,0,0">
+                            <Rectangle.Fill>
+                                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                                    <GradientStop Color="#00000000" Offset="0.003"/>
+                                    <GradientStop Color="#FF0A1B53" Offset="1"/>
+                                </LinearGradientBrush>
+                            </Rectangle.Fill>
+                        </Rectangle>
+                        <Separator Opacity="0.5" HorizontalAlignment="Left" Height="43" Margin="10,504,0,0" VerticalAlignment="Top" Width="1189">
+                            <Separator.Background>
+                                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                                    <GradientStop Color="#FF8787E2" Offset="0"/>
+                                    <GradientStop Color="#FF9FDAEC" Offset="0.984"/>
+                                </LinearGradientBrush>
+                            </Separator.Background>
+                        </Separator>
+                        <Image HorizontalAlignment="Left" Height="46" VerticalAlignment="Top" Width="44" Source="icons8-esc-240.png" Margin="40,527,0,0"/>
+                        <Label Content="Back" HorizontalAlignment="Left" VerticalAlignment="Top" Foreground="White" FontSize="14" FontFamily="Segoe UI Light" Margin="86,536,0,0"/>
+                        <Image x:Name="F1" HorizontalAlignment="Left" Height="46" VerticalAlignment="Top" Width="44" Source="icons8-f1-key-240.png" Margin="140,527,0,0"/>
+                        <Label x:Name="F12" Content="Delete" HorizontalAlignment="Left" VerticalAlignment="Top" Foreground="White" FontSize="14" FontFamily="Segoe UI Light" Margin="186,536,0,0"/>
+                    </Grid>
+
+                    <Grid SnapsToDevicePixels="True" ShowGridLines="False" x:Name="GamePanel" HorizontalAlignment="Left" Height="208" VerticalAlignment="Top" Width="1109" Margin="64,125,0,0" d:IsLocked="True" d:IsHidden="True">
+                        <ScrollViewer SnapsToDevicePixels="True" HorizontalScrollBarVisibility="Auto" VerticalScrollBarVisibility="Disabled" x:Name="ScrollViewer" HorizontalAlignment="Left" Height="208" VerticalAlignment="Top" Width="1109">
+                            <WrapPanel SnapsToDevicePixels="True" x:Name="Scroll" HorizontalAlignment="Left" Height="198" VerticalAlignment="Top" Width="308">
+                                <Grid x:Name="PoluStore" Height="208" Width="151" MouseEnter="AddGame_MouseEnter" MouseLeave="AddGame_MouseLeave" MouseLeftButtonUp="PoluStore_MouseLeftButtonUp" Margin="0,0,0,-10">
+                                    <Rectangle Opacity="0" IsHitTestVisible="False" x:Name="BackgroudGradient1" Margin="0,0,0,27" RenderTransformOrigin="0.5,0.5">
+                                        <Rectangle.RenderTransform>
+                                            <TransformGroup>
+                                                <ScaleTransform/>
+                                                <SkewTransform/>
+                                                <RotateTransform/>
+                                                <TranslateTransform/>
+                                            </TransformGroup>
+                                        </Rectangle.RenderTransform>
+                                        <Rectangle.Effect>
+                                            <BlurEffect/>
+                                        </Rectangle.Effect>
+                                        <Rectangle.Fill>
+                                            <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                                                <GradientStop Color="#FF787878" Offset="0"/>
+                                                <GradientStop Color="White" Offset="1"/>
+                                            </LinearGradientBrush>
+                                        </Rectangle.Fill>
+                                    </Rectangle>
+                                    <Grid x:Name="grid1" HorizontalAlignment="Left" VerticalAlignment="Top" Width="141" Margin="5,5,0,0" Background="#F21B1B1B" Height="172" RenderTransformOrigin="0.5,0.5">
+                                        <Grid.RenderTransform>
+                                            <TransformGroup>
+                                                <ScaleTransform/>
+                                                <SkewTransform/>
+                                                <RotateTransform/>
+                                                <TranslateTransform/>
+                                            </TransformGroup>
+                                        </Grid.RenderTransform>
+                                    </Grid>
+                                    <Rectangle x:Name="Background1" Width="142" Margin="6,6,6,66" RenderTransformOrigin="0.5,0.5">
+                                        <Rectangle.RenderTransform>
+                                            <TransformGroup>
+                                                <ScaleTransform/>
+                                                <SkewTransform/>
+                                                <RotateTransform/>
+                                                <TranslateTransform/>
+                                            </TransformGroup>
+                                        </Rectangle.RenderTransform>
+                                        <Rectangle.Fill>
+                                            <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                                                <GradientStop Color="#FF0057A0" Offset="0"/>
+                                                <GradientStop Color="#FF002E7E" Offset="1"/>
+                                            </LinearGradientBrush>
+                                        </Rectangle.Fill>
+                                    </Rectangle>
+                                    <Rectangle x:Name="GameImage1" HorizontalAlignment="Left"  Height="114" VerticalAlignment="Top" Width="135" Margin="7,18,0,0" RenderTransformOrigin="0.5,0.5" >
+                                        <Rectangle.RenderTransform>
+                                            <TransformGroup>
+                                                <ScaleTransform/>
+                                                <SkewTransform/>
+                                                <RotateTransform/>
+                                                <TranslateTransform/>
+                                            </TransformGroup>
+                                        </Rectangle.RenderTransform>
+                                        <Rectangle.Fill>
+                                            <ImageBrush ImageSource="ps4s.png" Stretch="Uniform"/>
+                                        </Rectangle.Fill>
+                                    </Rectangle>
+                                    <Label x:Name="label1" HorizontalContentAlignment="Center" VerticalContentAlignment="Top" Content="PoluStore" HorizontalAlignment="Left" VerticalAlignment="Top" Height="38" Margin="7,143,0,0" Width="135" Foreground="White" FontSize="18" FontFamily="Segoe UI Light" RenderTransformOrigin="0.5,0.5">
+                                        <Label.RenderTransform>
+                                            <TransformGroup>
+                                                <ScaleTransform/>
+                                                <SkewTransform/>
+                                                <RotateTransform/>
+                                                <TranslateTransform/>
+                                            </TransformGroup>
+                                        </Label.RenderTransform>
+                                    </Label>
+                                </Grid>
+                                <Grid x:Name="AddGame" DockPanel.Dock="Right" Height="208" Width="151" MouseEnter="AddGame_MouseEnter" MouseLeave="AddGame_MouseLeave" MouseLeftButtonUp="AddGame_MouseLeftButtonUp" Margin="0,0,0,-10">
+                                    <Rectangle Opacity="0" IsHitTestVisible="False" x:Name="BackgroudGradient" Margin="0,0,0,27" RenderTransformOrigin="0.5,0.5">
+                                        <Rectangle.RenderTransform>
+                                            <TransformGroup>
+                                                <ScaleTransform/>
+                                                <SkewTransform/>
+                                                <RotateTransform/>
+                                                <TranslateTransform/>
+                                            </TransformGroup>
+                                        </Rectangle.RenderTransform>
+                                        <Rectangle.Effect>
+                                            <BlurEffect/>
+                                        </Rectangle.Effect>
+                                        <Rectangle.Fill>
+                                            <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                                                <GradientStop Color="#FF787878" Offset="0"/>
+                                                <GradientStop Color="White" Offset="1"/>
+                                            </LinearGradientBrush>
+                                        </Rectangle.Fill>
+                                    </Rectangle>
+                                    <Grid x:Name="grid" HorizontalAlignment="Left" VerticalAlignment="Top" Width="141" Margin="5,5,0,0" Background="#F21B1B1B" Height="172" RenderTransformOrigin="0.5,0.5">
+                                        <Grid.RenderTransform>
+                                            <TransformGroup>
+                                                <ScaleTransform/>
+                                                <SkewTransform/>
+                                                <RotateTransform/>
+                                                <TranslateTransform/>
+                                            </TransformGroup>
+                                        </Grid.RenderTransform>
+                                    </Grid>
+                                    <Rectangle x:Name="Background" Width="142" Margin="6,6,6,66" RenderTransformOrigin="0.5,0.5">
+                                        <Rectangle.RenderTransform>
+                                            <TransformGroup>
+                                                <ScaleTransform/>
+                                                <SkewTransform/>
+                                                <RotateTransform/>
+                                                <TranslateTransform/>
+                                            </TransformGroup>
+                                        </Rectangle.RenderTransform>
+                                        <Rectangle.Fill>
+                                            <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                                                <GradientStop Color="#FF0057A0" Offset="0"/>
+                                                <GradientStop Color="#FF002E7E" Offset="1"/>
+                                            </LinearGradientBrush>
+                                        </Rectangle.Fill>
+                                    </Rectangle>
+                                    <Rectangle x:Name="GameImage" HorizontalAlignment="Left"  Height="124" VerticalAlignment="Top" Width="135" Margin="7,10,0,0" RenderTransformOrigin="0.5,0.5" >
+                                        <Rectangle.RenderTransform>
+                                            <TransformGroup>
+                                                <ScaleTransform/>
+                                                <SkewTransform/>
+                                                <RotateTransform/>
+                                                <TranslateTransform/>
+                                            </TransformGroup>
+                                        </Rectangle.RenderTransform>
+                                        <Rectangle.Fill>
+                                            <ImageBrush ImageSource="icons8-plus-+-144 (1).png" Stretch="Uniform"/>
+                                        </Rectangle.Fill>
+                                    </Rectangle>
+                                    <Label x:Name="label" HorizontalContentAlignment="Center" VerticalContentAlignment="Top" Content="Adicionar jogo" HorizontalAlignment="Left" VerticalAlignment="Top" Height="38" Margin="7,143,0,0" Width="135" Foreground="White" FontSize="18" FontFamily="Segoe UI Light" RenderTransformOrigin="0.5,0.5">
+                                        <Label.RenderTransform>
+                                            <TransformGroup>
+                                                <ScaleTransform/>
+                                                <SkewTransform/>
+                                                <RotateTransform/>
+                                                <TranslateTransform/>
+                                            </TransformGroup>
+                                        </Label.RenderTransform>
+                                    </Label>
+                                </Grid>
+                            </WrapPanel>
+                        </ScrollViewer>
+                    </Grid>
+                    <Grid Opacity="1" x:Name="SettingsGrid"  ShowGridLines="False" HorizontalAlignment="Left" Height="597" VerticalAlignment="Top" Width="1209" d:IsLocked="True" d:IsHidden="True">
+                        <Label Content="Settings" HorizontalAlignment="Left" VerticalAlignment="Top" Height="61" Width="176" Margin="66,18,0,0" Foreground="White" FontSize="36" FontFamily="Segoe UI Variable Text Light"/>
+                        <ScrollViewer HorizontalAlignment="Left" Height="421" VerticalAlignment="Top" Width="860" Margin="182,99,0,0">
+                            <WrapPanel Height="447" Width="862">
+                                <Grid x:Name="FullScreen" Height="88" Width="862" MouseEnter="FullScreen_MouseEnter" MouseLeave="FullScreen_MouseLeave" MouseLeftButtonDown="FullScreen_MouseLeftButtonDown">
+                                    <Rectangle Opacity="0" IsHitTestVisible="False" x:Name="SelectedRound4" HorizontalAlignment="Left" Height="58" VerticalAlignment="Top" Width="852" Fill="White">
+                                        <Rectangle.Effect>
+                                            <BlurEffect Radius="10"/>
+                                        </Rectangle.Effect>
+                                    </Rectangle>
+                                    <Rectangle Fill="#FF0C3480" HorizontalAlignment="Left" Height="55" VerticalAlignment="Top" Width="846" Margin="3,2,0,0"/>
+                                    <Image HorizontalAlignment="Left" Height="48" VerticalAlignment="Top" Width="48" Source="icons8-full-screen-384.png" Margin="7,5,0,0"/>
+                                    <Label x:Name="IsFull" HorizontalContentAlignment="Left" VerticalContentAlignment="Center" Content="Fullscreen - Off" HorizontalAlignment="Left" VerticalAlignment="Top" Height="57" Width="146" Margin="60,0,0,0" Foreground="White" FontFamily="Segoe UI Light" FontSize="20"/>
+                                </Grid>
+                                <Grid x:Name="Username_Category" Height="132" Width="862" MouseEnter="Username_Category_MouseEnter" MouseLeave="Username_Category_MouseLeave">
+                                    <Label Content="Visual" HorizontalAlignment="Left" VerticalAlignment="Top" Height="61" Width="124" Margin="50,8,0,0" Foreground="White" FontSize="24" FontFamily="Segoe UI Variable Text Light"/>
+                                    <Rectangle Opacity="0" IsHitTestVisible="False" x:Name="SelectedRound5" HorizontalAlignment="Left" Height="58" VerticalAlignment="Top" Width="852" Fill="White" Margin="0,70,0,0">
+                                        <Rectangle.Effect>
+                                            <BlurEffect Radius="10"/>
+                                        </Rectangle.Effect>
+                                    </Rectangle>
+                                    <Rectangle Fill="#FF0C3480" HorizontalAlignment="Left" Height="55" VerticalAlignment="Top" Width="846" Margin="3,72,0,0"/>
+                                    <Image HorizontalAlignment="Left" Height="48" VerticalAlignment="Top" Width="48" Source="icons8-account-192 (1).png" Margin="7,75,0,0"/>
+                                    <Label x:Name="IsFull1" HorizontalContentAlignment="Left" VerticalContentAlignment="Center" Content="Username" HorizontalAlignment="Left" VerticalAlignment="Top" Height="57" Width="146" Margin="60,70,0,0" Foreground="White" FontFamily="Segoe UI Light" FontSize="20"/>
+                                    <TextBox x:Name="UsernameSetterTextBox" HorizontalContentAlignment="Left" VerticalContentAlignment="Center" HorizontalAlignment="Left" Height="51" TextWrapping="Wrap" Text="Guest" VerticalAlignment="Top" Width="258" Margin="262,74,0,0" FontSize="22" Foreground="#FFEEEEEE" BorderBrush="{x:Null}" Background="#FF0E3174" TextChanged="UsernameSetterTextBox_TextChanged"/>
+                                    <Separator Opacity="0.8" HorizontalAlignment="Left" Height="43" Margin="10,38,0,0" VerticalAlignment="Top" Width="843">
+                                        <Separator.Background>
+                                            <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                                                <GradientStop Color="#FF7070D6" Offset="0"/>
+                                                <GradientStop Color="#FF2CC6F3" Offset="0.984"/>
+                                            </LinearGradientBrush>
+                                        </Separator.Background>
+                                    </Separator>
+                                </Grid>
+                                <Grid x:Name="ProfilePicture" Height="66" Width="862" MouseEnter="ProfilePicture_MouseEnter" MouseLeave="ProfilePicture_MouseLeave" MouseLeftButtonDown="ProfilePicture_MouseLeftButtonDown">
+                                    <Rectangle Opacity="0" IsHitTestVisible="False" x:Name="SelectedRound6" HorizontalAlignment="Left" Height="58" VerticalAlignment="Top" Width="852" Fill="White" Margin="0,6,0,0">
+                                        <Rectangle.Effect>
+                                            <BlurEffect Radius="10"/>
+                                        </Rectangle.Effect>
+                                    </Rectangle>
+                                    <Rectangle Fill="#FF0C3480" HorizontalAlignment="Left" Height="55" VerticalAlignment="Top" Width="846" Margin="3,8,0,0"/>
+                                    <Image x:Name="PFPImagePreview" HorizontalAlignment="Left" Height="48" VerticalAlignment="Top" Width="48" Source="icons8-edit-profile-144.png" Margin="7,11,0,0"/>
+                                    <Label x:Name="IsFull2" HorizontalContentAlignment="Left" VerticalContentAlignment="Center" Content="Profile picture" HorizontalAlignment="Left" VerticalAlignment="Top" Height="57" Width="146" Margin="60,6,0,0" Foreground="White" FontFamily="Segoe UI Light" FontSize="20"/>
+                                </Grid>
+                                <Grid x:Name="Theme" Height="85" Width="862">
+                                    <Rectangle Opacity="0" IsHitTestVisible="False" x:Name="SelectedRound7" HorizontalAlignment="Left" Height="58" VerticalAlignment="Top" Width="852" Fill="White" Margin="0,21,0,0">
+                                        <Rectangle.Effect>
+                                            <BlurEffect Radius="10"/>
+                                        </Rectangle.Effect>
+                                    </Rectangle>
+                                    <Rectangle Fill="#FF0C3480" HorizontalAlignment="Left" Height="55" VerticalAlignment="Top" Width="846" Margin="3,23,0,0" MouseEnter="Theme_MouseEnter" MouseLeave="Theme_MouseLeave" MouseLeftButtonDown="Theme_MouseLeftButtonDown"/>
+                                    <Image x:Name="RemoveTheme" Opacity="0.8" HorizontalAlignment="Left" Height="30" VerticalAlignment="Top" Width="30" Margin="799,34,0,0" Source="icons8-multiply-240.png" MouseLeftButtonUp="Image_MouseLeftButtonUp" MouseEnter="Image_MouseEnter" MouseLeave="Image_MouseLeave"/>
+                                    <Image x:Name="PFPImagePreview1" IsHitTestVisible="False" HorizontalAlignment="Left" Height="48" VerticalAlignment="Top" Width="48" Source="icons8-change-theme-240.png" Margin="7,26,0,0"/>
+                                    <Label x:Name="IsFull3" IsHitTestVisible="False" HorizontalContentAlignment="Left" VerticalContentAlignment="Center" Content="Tema" HorizontalAlignment="Left" VerticalAlignment="Top" Height="57" Width="146" Margin="60,21,0,0" Foreground="White" FontFamily="Segoe UI Light" FontSize="20"/>
+                                </Grid>
+                                <Grid x:Name="VolumeG" Height="71" Width="862" MouseEnter="Theme_MouseEnter" MouseLeave="Theme_MouseLeave">
+                                    <Rectangle Opacity="0" IsHitTestVisible="False" x:Name="SelectedRound8" HorizontalAlignment="Left" Height="58" VerticalAlignment="Top" Width="852" Fill="White" Margin="0,7,0,0">
+                                        <Rectangle.Effect>
+                                            <BlurEffect Radius="10"/>
+                                        </Rectangle.Effect>
+                                    </Rectangle>
+                                    <Rectangle Fill="#FF0C3480" HorizontalAlignment="Left" Height="55" VerticalAlignment="Top" Width="846" Margin="3,6,0,0"/>
+                                    <Slider x:Name="VolumeSlider" Style="{StaticResource Horizontal_Slider}" HorizontalAlignment="Left" VerticalAlignment="Top" Height="31" Width="460" Margin="173,25,0,0" Maximum="1" Value="0.5" ValueChanged="VolumeSlider_ValueChanged"/>
+                                    <Image x:Name="PFPImagePreview2" IsHitTestVisible="False" HorizontalAlignment="Left" Height="48" VerticalAlignment="Top" Width="48" Source="icons8-low-volume-384.png" Margin="15,12,0,0"/>
+                                    <Label x:Name="IsFull4" IsHitTestVisible="False" HorizontalContentAlignment="Left" VerticalContentAlignment="Center" Content="Volume" HorizontalAlignment="Left" VerticalAlignment="Top" Height="57" Width="146" Margin="60,7,0,0" Foreground="White" FontFamily="Segoe UI Light" FontSize="20"/>
+                                </Grid>
+                            </WrapPanel>
+                        </ScrollViewer>
+                        <Separator Opacity="0.8" HorizontalAlignment="Left" Height="43" Margin="10,56,0,0" VerticalAlignment="Top" Width="1189">
+                            <Separator.Background>
+                                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                                    <GradientStop Color="#FF7070D6" Offset="0"/>
+                                    <GradientStop Color="#FF2CC6F3" Offset="0.984"/>
+                                </LinearGradientBrush>
+                            </Separator.Background>
+                        </Separator>
+                        <Image HorizontalAlignment="Left" Height="46" VerticalAlignment="Top" Width="44" Source="icons8-esc-240.png" Margin="40,527,0,0"/>
+                        <Label Content="Back" HorizontalAlignment="Left" VerticalAlignment="Top" Foreground="White" FontSize="14" FontFamily="Segoe UI Light" Margin="86,536,0,0"/>
+                    </Grid>
+                    <Grid Opacity="0" IsHitTestVisible="False"  ShowGridLines="False" x:Name="TurnOffMenu" HorizontalAlignment="Left" Height="597" VerticalAlignment="Top" Width="1209" Cursor="SizeAll" Margin="0,-5,0,0" d:IsHidden="True" d:IsLocked="True">
+                        <Rectangle x:Name="TurnOffBK" Opacity="0.8" HorizontalAlignment="Left" Height="597" VerticalAlignment="Top" Width="1209">
+                            <Rectangle.Fill>
+                                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                                    <GradientStop Color="#7F000000" Offset="0"/>
+                                    <GradientStop Color="#FF272727" Offset="1"/>
+                                </LinearGradientBrush>
+                            </Rectangle.Fill>
+                        </Rectangle>
+                        <Label HorizontalContentAlignment="Center" VerticalContentAlignment="Center" Content="Are you sure you want to leave?" HorizontalAlignment="Left" VerticalAlignment="Top" Height="81" Margin="0,134,0,0" Width="1209" Foreground="White" FontSize="24" FontFamily="Verdana"/>
+                        <Grid x:Name="TurnOffBTNS" HorizontalAlignment="Left" Height="91" VerticalAlignment="Top" Width="1209" Margin="0,257,0,0">
+                            <Label Opacity="0.5" MouseEnter="ConfirmButton_MouseEnter" MouseLeave="ConfirmButton_MouseLeave" x:Name="ConfirmButton" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" Content="Confirm" HorizontalAlignment="Left" VerticalAlignment="Top" Height="91" Width="305" Margin="191,0,0,0" Foreground="White" FontSize="18" FontFamily="Segoe UI Variable Small Light" MouseLeftButtonUp="ConfirmButton_MouseLeftButtonUp"/>
+                            <Label Opacity="0.5" MouseEnter="CancelButton_MouseEnter" MouseLeave="CancelButton_MouseLeave" x:Name="CancelButton" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" Content="Cancel" HorizontalAlignment="Left" VerticalAlignment="Top" Height="91" Width="305" Margin="716,0,0,0" Foreground="White" FontSize="18" FontFamily="Segoe UI Variable Small Light" MouseLeftButtonUp="CancelButton_MouseLeftButtonUp"/>
+                        </Grid>
+                    </Grid>
+                </Grid>
+            </Grid>
+        </Grid>
+        <local:Notification x:Name="NotificationMenu" HorizontalAlignment="Left" Height="75" VerticalAlignment="Top" Width="330" Margin="882,520,-3,0"/>
+        <Grid x:Name="TopHover" Opacity="0.01"  HorizontalAlignment="Left" Height="34" VerticalAlignment="Top" Width="1212" Margin="0,0,-3,0" Background="Black" MouseLeftButtonDown="TopHover_MouseLeftButtonDown"/>
+    </Grid>
+</Window>
